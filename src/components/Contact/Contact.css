@@ -1,0 +1,59 @@
+.contact{
+    display: flex;
+    padding: 2.5rem 0;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem;
+        align-items: center;
+        justify-content:stretch;
+    }
+
+    .contact .spacer{
+        max-width: 0;
+        max-height: 0;
+    }
+
+    .contact .thanks{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        align-items: center;
+        justify-content:stretch;
+    }
+
+    .contact .thanks{
+        font-size: 1rem;
+    }
+}
+
+.contact > div{
+    flex-basis: 0px;
+    /* border: 1px solid blue; */
+}
+
+.contact .spacer{
+    max-width: 7rem;
+    /* border: 1px solid red; */
+    flex-grow: 1;
+}
+
+.contact-form-container{
+    flex-grow: 0;
+}
+
+.thanks{
+    font-size: 1.5rem;
+    flex-grow: 8;
+}

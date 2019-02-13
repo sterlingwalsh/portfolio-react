@@ -1,0 +1,26 @@
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.form-text{
+    border: none;
+    border-bottom: 1px solid gray;
+    background:none;
+    margin: .25rem;
+}
+
+.form-button{
+    border-radius: 999px;
+    background: none;
+    border: 1px solid gray;
+}
+
+.form-button:hover{
+    background: hsl(180, 100%, 50%);
+}
+
+.form-button:active{
+    background: hsl(180, 100%, 20%);
+}
