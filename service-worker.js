@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sterlingwalsh/portfolio-react/tree/gh-pages/precache-manifest.9e852a27fad5e11340d6b2ef7f4382c2.js"
+  "/sterlingwalsh/portfolio-react/precache-manifest.2021f662f3abe24d0a7931c20b4804aa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sterlingwalsh/portfolio-react/tree/gh-pages/index.html", {
+workbox.routing.registerNavigationRoute("/sterlingwalsh/portfolio-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
