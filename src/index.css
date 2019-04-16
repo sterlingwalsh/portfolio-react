@@ -5,22 +5,20 @@ html, body{
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   background: repeating-linear-gradient(135deg, rgba(32,32,32) 0%, rgb(30, 30, 30) .25%, rgba(32,32,32) .5%);
   background-attachment: fixed;
-
-
 }
 
 *{
   font-size: 24px;
   box-sizing: border-box;
   border-radius: 1px;
+  margin: 0;
+  padding: 0;
 }
 
 .match-parent{
@@ -41,6 +39,12 @@ body {
 
 .font-light{
   color: azure;
+}
+
+.center-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .material-icons {

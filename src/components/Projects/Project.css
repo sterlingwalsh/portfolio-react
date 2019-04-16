@@ -13,53 +13,56 @@
 .project-image{
     display:flex;
     justify-content: center;
-}
-
-.overlay-container{
-    display:flex;
-    overflow: hidden;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 .overlay{
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0;
     background: rgba(240, 255, 255, .7);
     padding: 1rem;
 }
 
-.description-container{
+.overlay > *{
+    flex-grow: 0;
+}
+
+.description-wrapper{
     flex-grow: 1;
 }
 
 .icon-container{
-    display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    writing-mode: vertical-lr;
-    flex-grow: 0;
-
+    justify-self: stretch;
+    display: flex;
+    align-items: center;
 }
 
-.icon-container img{
-    writing-mode: horizontal-tb;
+.icon-container img, .icon-container i{
     width: 36px;
     height: auto;
     margin:.4em;
 }
 
-.description-container{
-    transform: translateX(-100%);
+.tech-icon{
+    flex-grow: 0;
 }
 
-.icon-container{
-    transform: translate(100%);
-}
-
-.project:hover .overlay{
-    transform: translateX(0%);
+.spacer{
+    flex-grow: 1;
 }
 
 .project:hover .project-image{
     transform: scale(1.025);
     filter: blur(10px);
+}
+
+.project:hover .overlay{
+    opacity: 1;
 }
 
 @media only screen and (max-width: 900px) and (orientation:landscape){
@@ -80,9 +83,6 @@
         height: auto;
         margin: .1rem;
     }
-    .description-container *{
-        font-size: .75rem;
-    }
 
     .project > div{
         margin: 1.5rem;
@@ -94,9 +94,6 @@
         width: 20px;
         height: auto;
         margin: .1rem;
-    }
-    .description-container *{
-        font-size: .67rem;
     }
     .project > div{
         margin: 1.25rem;
