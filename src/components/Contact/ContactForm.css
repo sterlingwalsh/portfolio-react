@@ -24,3 +24,11 @@
 .form-button:active{
     background: hsl(180, 100%, 20%);
 }
+
+.thank-message{
+    text-align: center;
+}
+
+.thank-message p{
+    white-space: nowrap;
+}
