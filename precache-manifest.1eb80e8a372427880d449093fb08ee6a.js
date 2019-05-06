@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/react-hexagon.04557c1b.png"
   },
   {
-    "revision": "d72c2907c6ebb0953c60",
-    "url": "/portfolio/static/css/main.fb611d2e.chunk.css"
+    "revision": "845881627c7abfcb679f",
+    "url": "/portfolio/static/css/main.2eff7041.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "e976d9803137d9c62ab9",
-    "url": "/portfolio/static/js/2.86bbef84.chunk.js"
+    "revision": "9a7c7da1b6b50ec82e9b",
+    "url": "/portfolio/static/js/2.da5c75f4.chunk.js"
   },
   {
     "revision": "970b93f0f37f1af926ba32a3200c0879",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/javascript-shield-logo.07c442a0.png"
   },
   {
-    "revision": "d72c2907c6ebb0953c60",
-    "url": "/portfolio/static/js/main.de9341d2.chunk.js"
+    "revision": "845881627c7abfcb679f",
+    "url": "/portfolio/static/js/main.3651c90c.chunk.js"
   },
   {
     "revision": "9cab3941a9641e93c85fb1b45f2da6a2",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Matchbots.948efbd8.png"
   },
   {
-    "revision": "058d4c5ad75e9e90afc5ca4b537e2472",
+    "revision": "0b6809ccfa9a6a052c948f1b7197b735",
     "url": "/portfolio/index.html"
   }
 ];
