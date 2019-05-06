@@ -21,8 +21,8 @@ class Project extends Component{
                         <div className='icon-container'>
                             {icons}
                             <div className='spacer'></div>
-                            <a href={github} target='_blank' className='tech-icon'><img src={gitIcon} alt='github'/></a>
-                            <a href={site} target='_blank' className='tech-icon'><i className='material-icons'>desktop_windows</i></a>
+                            <a href={github} target='_blank' rel='noopener noreferrer' className='tech-icon'><img src={gitIcon} alt='github'/></a>
+                            <a href={site} target='_blank' rel='noopener noreferrer' className='tech-icon'><i className='material-icons'>desktop_windows</i></a>
                         </div>        
                     </div>              
                 </div>

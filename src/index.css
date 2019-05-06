@@ -1,3 +1,10 @@
+:root{
+  --primary-dark-vals: 36,57,77;
+  --primary-dark: rgb(var(--primary-dark-vals));
+  --primary-light: rgb(75,243,248);
+  --primary-white: white;
+}
+
 html, body{
   width: 100%;
   height: 100%;
@@ -9,8 +16,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: repeating-linear-gradient(135deg, rgba(32,32,32) 0%, rgb(30, 30, 30) .25%, rgba(32,32,32) .5%);
+  background: linear-gradient(135deg,var(--primary-dark) 20%, var(--primary-light) 350%);
   background-attachment: fixed;
+  /* background: var(--primary-dark); */
 }
 
 *{

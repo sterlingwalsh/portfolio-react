@@ -19,22 +19,22 @@ class ContactForm extends Component{
     submit = (state) => (action) =>{
         action.preventDefault();
         this.setState({submitSuccess: true});
-        // console.log(action);
-        // fetch('https://www.enformed.io/2e5565yg', {
-        //     method:'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //         'Accept': 'application/json'
-        //     },
-        //     body: JSON.stringify({...this.state})
-        // })
-        // .then(res => res.json())
-        // .then(res => {
-        //     console.log(res);
-        //     if(res.status === 200){
-        //         this.setState({submitSuccess: true});
-        //     }
-        // })
+        console.log(action);
+        fetch('https://www.enformed.io/2e5565yg', {
+            method:'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({...this.state.form})
+        })
+        .then(res => res.json())
+        .then(res => {
+            console.log(res);
+            if(res.status === 200){
+                this.setState({submitSuccess: true});
+            }
+        })
     }
 
     onInputChange = (event) => {

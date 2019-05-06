@@ -4,7 +4,7 @@ import './About.css'
 class About extends Component{
     render(){
         return(
-            <div id='about' className='about bkg-light'>
+            <div id='about' className='about'>
                 <div className='spacer'></div>
                 <div className='about-text'>
                     <p>For the last 8 years, I've been working for an R&D company assisting with a variety of projects, many of which were funded by research grants from various US government departments.</p>

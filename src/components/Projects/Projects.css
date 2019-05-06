@@ -3,7 +3,7 @@
 }
 
 .project:nth-child(4n-2), .project:nth-child(4n-1){
-    background:azure;
+    background:var(--primary-white);
 }
 
 .project-grid{
@@ -17,7 +17,7 @@
         grid-template-columns: 1fr;
     }
     .project:nth-child(even){
-        background:azure;
+        background:var(--primary-white);
     }
     .project:nth-child(odd){
         background:none;

@@ -7,7 +7,7 @@
 
 .welcome{
     flex-grow: 1;
-    color: azure;
+    color: var(--primary-light);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
 
 .name{
     font-family: 'Tangerine', cursive;
-    color: aliceblue;
+    color: var(--primary-white);
     flex-grow: 1;
     /* border: 1px solid white; */
     padding-top: 2.5rem;

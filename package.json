@@ -2,7 +2,7 @@
   "name": "portfolioreacts",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://sterlingwalsh.github.io/portfolio-react",
+  "homepage":"https://sterlingwalsh.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.1",
