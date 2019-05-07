@@ -14,6 +14,10 @@
     flex-grow: 4;
 }
 
+.about-text p{
+    margin-bottom: 1rem;
+}
+
 .about .spacer{
     max-width: 5vw;
 }
