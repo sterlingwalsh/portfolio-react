@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/react-hexagon.04557c1b.png"
   },
   {
-    "revision": "c966628664317b2784a1",
+    "revision": "226c9454856370af8720",
     "url": "/portfolio/static/css/main.2eff7041.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/2.da5c75f4.chunk.js"
   },
   {
-    "revision": "970b93f0f37f1af926ba32a3200c0879",
-    "url": "/portfolio/static/media/CSS3-Mark-Shape-Cut.970b93f0.png"
+    "revision": "708f19e6932e948cd0a2a97042785486",
+    "url": "/portfolio/static/media/CSS3-Mark-Shape-Cut.708f19e6.png"
   },
   {
-    "revision": "07c442a080c7582265b974fd1b4d97c2",
-    "url": "/portfolio/static/media/javascript-shield-logo.07c442a0.png"
-  },
-  {
-    "revision": "c966628664317b2784a1",
-    "url": "/portfolio/static/js/main.3e192c9a.chunk.js"
+    "revision": "226c9454856370af8720",
+    "url": "/portfolio/static/js/main.202882c5.chunk.js"
   },
   {
     "revision": "9cab3941a9641e93c85fb1b45f2da6a2",
@@ -44,7 +40,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Matchbots.8b55cbdb.jpg"
   },
   {
-    "revision": "a65c5cf83dcb432dba503b17969a09c9",
+    "revision": "bb63252f602a4ffbfed9ede7e1ea6ec4",
     "url": "/portfolio/index.html"
   }
 ];
