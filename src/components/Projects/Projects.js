@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import './Projects.css'
 import Project from './Project'
 
-import roboImage from "../../images/robofriends.png"
-import facefind from "../../images/facefind.png"
-import matchbots from "../../images/Matchbots.png"
+import roboImage from "../../images/robofriends.jpg"
+import facefind from "../../images/facefind.jpg"
+import matchbots from "../../images/Matchbots.jpg"
 
 import htmlIcon from "../../images/HTML5_Badge_512.png"
 import cssIcon from "../../images/CSS3-Mark-Shape-Cut.png"
