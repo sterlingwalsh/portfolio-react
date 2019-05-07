@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/react-hexagon.04557c1b.png"
   },
   {
-    "revision": "226c9454856370af8720",
-    "url": "/portfolio/static/css/main.2eff7041.chunk.css"
+    "revision": "b0cb5a34a19a65c9aad7",
+    "url": "/portfolio/static/css/main.36a0b48d.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/CSS3-Mark-Shape-Cut.708f19e6.png"
   },
   {
-    "revision": "226c9454856370af8720",
-    "url": "/portfolio/static/js/main.202882c5.chunk.js"
+    "revision": "b0cb5a34a19a65c9aad7",
+    "url": "/portfolio/static/js/main.aecd4b03.chunk.js"
   },
   {
     "revision": "9cab3941a9641e93c85fb1b45f2da6a2",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Matchbots.8b55cbdb.jpg"
   },
   {
-    "revision": "bb63252f602a4ffbfed9ede7e1ea6ec4",
+    "revision": "23af74dabc6870c582bb48a0f3316530",
     "url": "/portfolio/index.html"
   }
 ];
