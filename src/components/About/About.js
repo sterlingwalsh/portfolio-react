@@ -12,7 +12,7 @@ class About extends Component{
                         Basically, my job is to work with and be a problem solver. 
                         Coding projects, however, have been a favorite. 
                         The first major software project I was involved with was to use Java to develop the interface for a desktop app used with a sensor system that was developed for the Army Research Laboratory.</p>
-                    <p>My goal is to turn my focus toward using code for problem solving and developing sleak and responsive website on both the frontend and the backend.</p>
+                    <p>My goal is to turn my focus toward using code for problem solving and developing sleak and responsive websites on both the frontend and the backend.</p>
                 </div>
                 {/* <div className='about-portrait'>
 
