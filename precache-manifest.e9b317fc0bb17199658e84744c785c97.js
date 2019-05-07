@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/react-hexagon.04557c1b.png"
   },
   {
-    "revision": "845881627c7abfcb679f",
+    "revision": "c966628664317b2784a1",
     "url": "/portfolio/static/css/main.2eff7041.chunk.css"
   },
   {
@@ -24,27 +24,27 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/javascript-shield-logo.07c442a0.png"
   },
   {
-    "revision": "845881627c7abfcb679f",
-    "url": "/portfolio/static/js/main.3651c90c.chunk.js"
+    "revision": "c966628664317b2784a1",
+    "url": "/portfolio/static/js/main.3e192c9a.chunk.js"
   },
   {
     "revision": "9cab3941a9641e93c85fb1b45f2da6a2",
     "url": "/portfolio/static/media/github-logo.9cab3941.png"
   },
   {
-    "revision": "3a6b9e2720604ebf7fed358e62442f9f",
-    "url": "/portfolio/static/media/robofriends.3a6b9e27.png"
+    "revision": "6f4c6ac8e0314bef3c8a4bd67450be5c",
+    "url": "/portfolio/static/media/robofriends.6f4c6ac8.jpg"
   },
   {
-    "revision": "936017b590dac460c139264af6b12a5a",
-    "url": "/portfolio/static/media/facefind.936017b5.png"
+    "revision": "5a0e8d88330d91d03c8cabdc6455c490",
+    "url": "/portfolio/static/media/facefind.5a0e8d88.jpg"
   },
   {
-    "revision": "948efbd82b2d8b18e078de794890dcb5",
-    "url": "/portfolio/static/media/Matchbots.948efbd8.png"
+    "revision": "8b55cbdba82a9528d951e395032f9001",
+    "url": "/portfolio/static/media/Matchbots.8b55cbdb.jpg"
   },
   {
-    "revision": "0b6809ccfa9a6a052c948f1b7197b735",
+    "revision": "a65c5cf83dcb432dba503b17969a09c9",
     "url": "/portfolio/index.html"
   }
 ];
